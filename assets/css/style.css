@@ -1,0 +1,142 @@
+/* Fonts */
+/* Lato Font Import */
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Arvo Font Import */
+/* font-family: 'Arvo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* Root VAriables */
+:root{
+    --lato-font: 'Lato', sans-serif; 
+    --arvo-font: 'Arvo', serif;
+    --white: #fff;
+    --black: #000;
+    --blue-color: #005ba9;
+}
+
+/* Custom CSS */
+p{
+    font-family: var(--lato-font);
+}
+.btn-primary-blue{
+    background-color: var(--blue-color);
+    font-family: var(--arvo-font);
+    color: var(--white);
+}
+
+/* Header CSS */
+/* Main Banner css */
+.main_banner_image{
+    width: 100%;
+    height: 700px;
+    margin-top: -165px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/photo/2022/04/17/09/52/museum-7137749_1280.jpg');
+    /* background-image: url('https://images.pexels.com/photos/7974827/pexels-photo-7974827.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner_content{
+    position: absolute;
+    top: 33%;
+}
+.banner_content h1{
+    font-family: var(--arvo-font);
+    color: var(--white);
+    font-size: 50px;
+}
+
+
+
+
+/* Main Section CSS */
+.main_section{
+    padding-top: 70px;
+    padding-bottom: 40px;    
+}
+/* Welcome CSS */
+.welcome_div{
+    background-color: var(--blue-color);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: justify;
+    margin-bottom: 30px;
+    /* height: 230px; */
+}
+.welcome_div h2{
+    font-family: var(--arvo-font);
+    font-size: 35px;
+}
+
+
+/* Book Now CSS */
+.book_now_div{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--blue-color);
+    padding: 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+    /* height: 230px; */
+}
+
+
+/* Facility CSS */
+.facility_div{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--blue-color);
+    padding: 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+    /* height: 230px; */
+}
+
+.facility_div h2{
+    font-family: var(--arvo-font);
+    font-size: 35px;
+}
+
+
+
+/* Image CSS */
+.image_div{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.image_div img{
+    border-radius: 10px;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Google Map Div */
+.google_map_div{
+    background-color: #252322;;
+}
+
+/* Footer CSS */
+#footer{
+    background-color: var(--black);
+    padding: 15px 0px;
+}
+.footer_copy_right_text p{
+    margin-bottom: 0;
+    color: var(--white);
+    font-family: var(--lato-font);
+    font-size: 15px;
+}
+.footer_social_links a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    margin-left: 10px;
+}
