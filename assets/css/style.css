@@ -25,6 +25,11 @@ p{
     font-family: var(--arvo-font);
     color: var(--white);
 }
+.btn-primary-blue:hover{
+    border-color: var(--blue-color);
+    background-color: transparent;
+    color: var(--blue-color);
+}
 
 /* Header CSS */
 /* Main Banner css */
